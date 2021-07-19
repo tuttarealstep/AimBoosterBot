@@ -1,0 +1,22 @@
+{
+  "name": "aimboostjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "opencv4nodejs-prebuilt": "^5.3.3",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.12.6"
+  },
+  "opencv4nodejs": {
+    "disableAutoBuild": 1,
+    "opencvIncludeDir": "C:\\tools\\opencv\\build\\include",
+    "opencvLibDir": "C:\\tools\\opencv\\build\\x64\\vc15\\lib",
+    "opencvBinDir": "C:\\tools\\opencv\\build\\x64\\vc15\\bin"
+  }
+}
